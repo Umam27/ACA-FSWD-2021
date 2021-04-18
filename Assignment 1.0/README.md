@@ -13,3 +13,5 @@ INTRO TO GIT COMMANDS.
 * command number 9: help :- to get help about any command list. It displays all the cmd commands.
 
 **THIS IS ALL ABOUT THE BASIC COMMAND FUNCTIONS. THERE ARE A LOT MORE TO EXPLORE IN CMD. HAVE A GREAT TIME EXPLORING.**
+
+# SOME TERMS RELATED TO GIT TO WORKING ON GIT
