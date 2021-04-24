@@ -6,7 +6,8 @@
  command number 1| cd | to change the *directory*.
  command number 2| dir| to veiw all the files in the *current directory*.
  command number 3| d: | to change the the directory, we just need to write the directory:.
- command number 4| copy | to copy one file from one location to another.* command number 5| mkdir or md | to create new directory in the *current directory*.
+ command number 4| copy | to copy one file from one location to another.
+ command number 5| mkdir or md | to create new directory in the *current directory*.
  command number 6| del | to delete all files from the *current directory*.
  command number 7| rd | to remove the *specified directory*.
  command number 8| exe | to run a specific a *program*.
