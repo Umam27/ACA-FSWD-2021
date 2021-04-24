@@ -8,7 +8,8 @@
  command number 1| cd | to change the *directory*.
  command number 2| dir| to veiw all the files in the *current directory*.
  command number 3| d: | to change the the directory, we just need to write the directory:.
- command number 4| copy | to copy one file from one location to another.* command number 5| mkdir or md | to create new directory in the *current directory*.
+ command number 4| copy | to copy one file from one location to another.
+ command number 5| mkdir or md | to create new directory in the *current directory*.
  command number 6| del | to delete all files from the *current directory*.
  command number 7| rd | to remove the *specified directory*.
  command number 8| exe | to run a specific a *program*.
@@ -18,7 +19,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-## TERMS RELATED TO WEB DEV
+## TERMS RELATED TO WEB-DEV
 
 ### CLIENT-SERVER MODEL
       IN THIS MODEL WE HAVE A CENTRAL HOST CALLED *SERVER* AND SEVERAL OTHER PROCESSORS WHICH CONNECT TO IT ARE CALLED ITS *CLIENT*.
@@ -68,6 +69,6 @@
 
     FRAMEWORK, AS THE NAME SUGGESTS IS THE ARCHITECTURE OF THE CODE. IT MAJORLY EMPHASISES ON REUSABILITY OF DESIGN RATHER THAN REUSABILITY OF CODE. THE MAJOR DIFFERENCE IN IT IS THE "THE INVERSION OF CONTROL". THE FRAMEWORK HAS THE CONTROL IN ITS HANDS. WE DONT CALL IT DURING THE CODE, IT CALLS US.
 
-  
+  *NOTE*;  THIS IS THE BRANCHED WORK
 
   ---------------------------------------------------------------------------------------------------------------------------------------------
