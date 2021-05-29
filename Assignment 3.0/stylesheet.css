@@ -1,0 +1,69 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+overflow: hidden;
+background-color: navy;
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+.navbar a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+
+}
+
+.navbar a:hover {
+background:white;
+color: black;
+
+}
+
+.footer{
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: white;
+color:black;
+text-align: center;
+}
+
+.boxedelement{
+  border:2px solid;
+  
+  margin-right: 10%;
+  margin-left:10%;
+  padding:10px;
+}
+.center{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+
+}
+body {
+  background-color: black;
+  height:2000px;
+  COLOR: WHITE;
+}
+
+input{
+  text-align: center;
+  color: black;
+}
+form{
+  text-align: center;
+}
+
+
+

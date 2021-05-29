@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div class="navbar" style="text-align: right">
+            <a href="#home">New User</a>
+            <a href="#register">Register</a>
+            <a href="#signup">Access</a>
+            
+            <a href="#date" style="float: right">Date</a>
+         </div>
+         <br><br><br>        
+         <img src="W1.jpg" class="center">
+         <BR id="home">             <br>         <br>     
+         <div class="boxedelement" >
+             <BR id="home">
+            <H1 style="margin-left: 5px;">NEW USER?</H1>
+            <hr style="margin-left:10%; margin-right:10%;">
+            
+            <p style="text-align:center">HELLO! New user u can start your journey with us from here. To start the <i>registration</i> click on the <b>GENERATE TOKEN ID </b> button given below.</p>
+            <br>
+            <button type="button" style="margin: auto; display:block;width:50%; PADDING:5PX" id="button1">GENERATE TOKEN ID</button>
+            <br>
+            <p style="text-align:center" id="show_token_here"><i>Your token will appear here</i></p>
+            
+            <p style="text-align:center">After getting the <B>TOKEN ID</B> please move on the register user part.<BR></i>IT IS STRONGLY ADVISED TO REGISTER IMMEDIATELY AFTER GETTING THE TOKEN ID TO AVOID ANY COMPLICATIONS.</im></p>
+               
+        </div>   
+        <br id="register">
+        <br><hr><br>
+        <div class="boxedelement">
+            <H1 style="margin-left: 5px;">REGISTER WITH US</H1>
+            <hr style="margin-left:10%; margin-right:10%;">
+            <p style="text-align:center">HELLO! Hoping that u wud have completed the TOKEN ID PROCESS.  Now you are one step closer to being a part of our family.<br>Now please move on to entering the credentials below.<br></p>
+
+            <form id="form">
+                
+                <ul>
+                    <li>
+                        <label for="name">NAME: </label><br>
+                        <input type="text" placeholder="ENTER YOUR NAME" name="name" id="name">
+                    </li>
+                    <li>
+                        <label for="token">TOKEN I.D</label><br>
+                        <input type="text" placeholder="ENTER THE TOKEN ID" name="token" id="token">
+                    </li>
+                    <li>
+                        <label for="data">DATA: </label><br>
+                        <input type="text" placeholder="ENTER THE DATA" name="data" id="data">
+                    </li>
+                </ul>
+                <button type="button" style="margin: auto; display:block; PADDING:5PX"  id="button2">SUBMIT</button>
+            </form>
+            <p id="confirm"></p>
+            <p><B>This completes the registaration journey with us.</B></p>
+        </div>
+        <div class="footer" >
+            <p>
+                
+                <cite>GOOD THINGS COMES TO THOSE WHO WAIT!.</cite>
+            </p>
+            <p id="date" style="text-align: right;"></p>
+        </div>
+        <br><hr>
+        <br id="signup">
+        <div class="boxedelement">
+            <H1 style="margin-left: 5px;">ACCESS</H1>
+            <p style="text-align:center">To access the data, please enter your <b>TOKEN ID.</b></p>
+            <form>
+                <label for="token2">TOKEN I.D:</label><br>
+                <input type="text" placeholder="ENTER THE TOKEN ID" name="token2" id="token2"> </p>
+                <button type="button" style="margin: auto; display:block; PADDING:5PX"  id="button3">SUBMIT</button>
+                <br><br>
+            </form>
+            <p style="text-align:center" id="data_here">YOUR DATA APPEARS HERE</p>
+            
+        </div>
+        <script src="script.js"></script>
+
+    </body>
+</html>
