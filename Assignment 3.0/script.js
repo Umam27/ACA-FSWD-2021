@@ -1,3 +1,4 @@
+//GETTING TOKEN 
 let gettoken=document.getElementById("button1");
 
 gettoken.onclick= async function(){
@@ -7,7 +8,7 @@ gettoken.onclick= async function(){
     document.getElementById("show_token_here").innerHTML=token_text;
 }
 
-
+//SENDING DATA TO THE SERVER.
 let send_data=document.getElementById("button2");
 send_data.onclick= async function(){
     var formdata={
@@ -35,6 +36,7 @@ send_data.onclick= async function(){
     }
 }
 
+//REQUESTING THE SERVER TO ACCESS THE DATA
 let get_data=document.getElementById("button3");
 get_data.onclick= async function(){
 
@@ -54,5 +56,8 @@ get_data.onclick= async function(){
 
     if(response_data.ok){
         document.getElementById("data_here").innerHTML=response_print_text;
+    }
+    else{
+        document.getElementById("data_here").innerHTML=response_print_text[document.getElementById("token2").value];
     }
 }
